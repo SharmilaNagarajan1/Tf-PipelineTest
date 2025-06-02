@@ -1,5 +1,7 @@
 provider "azurerm" {
   features {}
+
+      resource_provider_registrations = "none"
       client_id          = "2eaf4b0b-e287-445d-ae0f-1da2e3ea808e"
       client_secret       = "Kof8Q~hHpfkAbXXo~EXPaYzd9uzP3uoeZlp5hdb8"
       subscription_id     ="a2b28c85-1948-4263-90ca-bade2bac4df4"
