@@ -2,15 +2,15 @@ provider "azurerm" {
   features {}
 
       resource_provider_registrations = "none"
-      client_id          = "2eaf4b0b-e287-445d-ae0f-1da2e3ea808e"
-      client_secret       = "Kof8Q~hHpfkAbXXo~EXPaYzd9uzP3uoeZlp5hdb8"
+      client_id          = "4c23435d-d065-45ab-89fb-0d020e46c687"
+      client_secret       = "8KW8Q~VK.G~3uCvn3L6N4sU05kE24B9Rz53kJcFK"
       subscription_id     ="a2b28c85-1948-4263-90ca-bade2bac4df4"
       tenant_id           ="30fe8ff1-adc6-444d-ba94-1238894df42c"
 
 }
 
 data "azurerm_resource_group" "rg" {
-  name     = "kml_rg_main-f5fc139ce6224d3a"
+  name     = "kml_rg_main-f43452212c28433d"
   
 }
 
